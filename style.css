@@ -100,6 +100,9 @@ body{
 
 
 }
+.navbar-brand{
+	font-size: 2.5rem;
+}
 
 .test-head{
 	
@@ -181,18 +184,30 @@ h1,h2,h3{
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
 
-   
 
+h1,h2,h3{
+	font-size: 1.5em;
+
+}
+
+button{
+	margin: 2px;
+	padding: 0px;
+
+}
+.intro{
+	font-size: 2em;
+}
 .iphone{
     transform:rotate(0deg);
 } 
 #title{
-	text-align: center;
+	text-align: left;
 
 } 
-}
+
 #footer{
     height: 250px;
     text-align: center;
@@ -204,4 +219,35 @@ h1,h2,h3{
 .copyright{
 	color: grey;
 	margin-top: 10px;
+}
+#festures{
+	font-size: 0.5em
+}
+
+.press-img{
+	width: 100px;
+	padding: 3px;
+	margin-bottom: 10px;
+
+}
+
+#cta{
+	
+	height:300px;
+	background-color: #ff4c68;
+	color: white;
+	text-align: center;
+	padding: 1% 0%;
+}
+
+#testimonials{
+	background-color: #e8505b;
+	text-align: center;
+	z-index: -1;
+	height: 400px;
+	}
+}
+.add{
+	margin-left: 0px
+	
 }
