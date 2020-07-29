@@ -193,7 +193,7 @@ h1,h2,h3{
 }
 
 button{
-	margin: 2px;
+	margin: 2.5px;
 	padding: 0px;
 
 }
@@ -248,6 +248,6 @@ button{
 	}
 }
 .add{
-	margin-left: 0px
+	margin-left: 0px;
 	
 }
