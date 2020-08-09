@@ -211,7 +211,7 @@ button{
 #footer{
     height: 250px;
     text-align: center;
-	margin: auto auto;
+	margin: auto 50% 50%;
     padding: 12% 0%;
 }
 .footer-icon{
